@@ -1,0 +1,10 @@
+{
+  "name": "test_task_AMDTelecom",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "author": "Aliaksei Serbat",
+  "devDependencies": {
+    "cypress": "^8.3.1"
+  }
+}

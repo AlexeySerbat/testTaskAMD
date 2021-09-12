@@ -1,0 +1,4 @@
+{
+  "baseUrl": "https://connect.routee.net",
+  "testFiles": "**/*.test.js"
+}
