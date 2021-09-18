@@ -23,7 +23,7 @@ export class SMSMethods {
     };
     verifySMSValid() {
         cy.request(smsRequest).then((response) =>{
-            expect(response.status).to.eq(400);
+            expect(response.status).to.eq(200);
             expect(response.body.status).to.eq(fixtureData.data.queuedStatus);
             expect(response.body.from).to.eq(fixtureData.data.message);
             expect(response.body.to).to.eq(fixtureData.data.phone);
